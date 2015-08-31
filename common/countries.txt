@@ -200,6 +200,7 @@ TSW    	= "countries/Botswana.txt"
 UGA    	= "countries/Uganda.txt"
 ZAM    	= "countries/Zambia.txt"
 ZIM		= "countries/Zimbabwe.txt"
+SWA     = "countries/SWA.txt"
 
 #New Native Nations
 APC		= "countries/Apache.txt"

@@ -139,5 +139,34 @@ army = {
 		type = infantry
 		home = 1145
 	}
+		regiment = {
+		name= "11. Bakhsh-i Piyadenizam"
+		type = infantry
+		home = 1112
+	}
+
+	regiment = {
+		name= "12. Bakhsh-i Piyadenizam"
+		type = infantry
+		home = 1111
+	}
+
+	regiment = {
+		name= "13. Bakhsh-i Piyadenizam"
+		type = infantry
+		home = 1113
+	}
+
+	regiment = {
+		name= "14. Bakhsh-i Piyadenizam"
+		type = infantry
+		home = 1116
+	}
+
+	regiment = {
+		name= "15 Bakhsh-i Piyadenizam"
+		type = infantry
+		home = 1148
+	}
 
 }

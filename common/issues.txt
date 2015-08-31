@@ -698,7 +698,7 @@ economic_reforms = {
 		}
 		yes_land_reform = {
 			technology_cost = 3600
-			civilization_progress_modifier = 0.045
+			civilization_progress_modifier = 0.1
 			
 			on_execute = {
 				effect = {
@@ -731,7 +731,7 @@ economic_reforms = {
 		}
 		yes_admin_reform = {
 			technology_cost = 3938
-			civilization_progress_modifier = 0.045
+			civilization_progress_modifier = 0.075
 			
 			on_execute = {
 				effect = {
@@ -764,7 +764,7 @@ economic_reforms = {
 		}
 		yes_finance_reform = {
 			technology_cost = 4230
-			civilization_progress_modifier = 0.045
+			civilization_progress_modifier = 0.05
 			max_loan_modifier = -1.0 # no loan 4 u
 			
 			on_execute = {
@@ -790,8 +790,7 @@ economic_reforms = {
 		finance_reform_two = {
 			technology_cost = 6750
 			tax_efficiency = 0.05
-			civilization_progress_modifier = 0.045
-			
+			civilization_progress_modifier = 0.1			
 			max_loan_modifier = -0.2 # 80% loans
 			
 			on_execute = {
@@ -867,7 +866,7 @@ economic_reforms = {
 		}
 		yes_transport_improv = {
 			technology_cost = 4950
-			civilization_progress_modifier = 0.045
+			civilization_progress_modifier = 0.05
 			on_execute = {
 				effect = {
 					activate_technology = wooden_mine_railways
@@ -978,7 +977,7 @@ military_reforms = {
 			#unit stats improve	
 			land_organisation = 0.1
 			technology_cost = 3600
-			civilization_progress_modifier = 0.045
+			civilization_progress_modifier = 0.05
 			research_points_on_conquer = 0.25
 			
 			on_execute = {
@@ -1012,7 +1011,7 @@ military_reforms = {
 		yes_foreign_weapons = {
 			land_defense_modifier = 0.1
 			technology_cost = 3133
-			civilization_progress_modifier = 0.045
+			civilization_progress_modifier = 0.05
 			research_points_on_conquer = 0.25
 						
 			on_execute = {
@@ -1086,7 +1085,7 @@ military_reforms = {
 		yes_foreign_officers = {
 			leadership_modifier = 0.1
 			technology_cost = 4307
-			civilization_progress_modifier = 0.068
+			civilization_progress_modifier = 0.075
 			research_points_on_conquer = 0.25
 			
 			on_execute = {
@@ -1118,7 +1117,7 @@ military_reforms = {
 		yes_army_schools = {
 			land_unit_start_experience = 10
 			technology_cost = 5100
-			civilization_progress_modifier = 0.068
+			civilization_progress_modifier = 0.075
 			
 			on_execute = {
 				effect = {
@@ -1148,7 +1147,7 @@ military_reforms = {
 		yes_foreign_naval_officers = {
 			tariff_efficiency_modifier = 0.2
 			technology_cost = 5440
-			civilization_progress_modifier = 0.068
+			civilization_progress_modifier = 0.075
 			
 			on_execute = {
 				effect = {
@@ -1178,7 +1177,7 @@ military_reforms = {
 		yes_naval_schools = {
 			naval_unit_start_experience = 10
 			technology_cost = 5440
-			civilization_progress_modifier = 0.068
+			civilization_progress_modifier = 0.075
 			
 			on_execute = {
 				effect = {
@@ -1214,7 +1213,7 @@ military_reforms = {
 			naval_attack_modifier = 0.2
 			naval_defense_modifier = 0.2
 			technology_cost = 5440
-			civilization_progress_modifier = 0.068
+			civilization_progress_modifier = 0.075
 			
 			on_execute = {
 				effect = {
