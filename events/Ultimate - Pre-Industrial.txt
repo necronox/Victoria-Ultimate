@@ -46,8 +46,6 @@ country_event = {
 			AND = {
 				NOT = {
 					has_country_modifier = hre_member
-					has_country_flag = left_hre 
-					has_global_flag = hre_dismantled
 					}
 				is_culture_group = germanic
 				}
@@ -64,6 +62,52 @@ country_event = {
 				}
 			}
 		}
+### Forming of Prussia
+
+country_event = { 
+	id = 1000221
+	title = "Inheritance!" 
+	desc = "Albert Frederick has died with no male heirs, this has left us in a power to claim his Duchy of Prussia!" 
+
+		trigger = { 
+				year = 1616
+				tag = BDB
+			}
+			fire_only_once = yes
+
+		option = {
+			name = "Hoorah!"
+			695 = { secede_province = BDB }
+			697 = { secede_province = BDB }
+			698 = { secede_province = BDB }
+			696 = { secede_province = BDB }
+			694 = { secede_province = BDB }
+		}
+}
+
+country_event = { 
+	id = 1000222
+	title = "Pomerania!" 
+	desc = "The house of Griffin has just failed, they have ruled over Pomerania for some time now, sweden, how also have claim to Pomerania, has sent us a deal, we will take half of it, and recognise their rule over the rest." 
+
+		trigger = { 
+				year = 1648
+				tag = BDB
+				PMR = { ai = yes }
+			}
+			fire_only_once = yes
+
+		option = {
+			name = "Hoorah!"
+			546 = { secede_province = BDB }
+			679 = { secede_province = BDB }
+			680 = { secede_province = BDB }
+			548 = { secede_province = SWE }
+			547 = { secede_province = SWE }
+		}
+}
+
+
 
 ##English Civil War##
 
@@ -8022,7 +8066,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 20000319 # Beethoven composes Für Elise
+	id = 20000319 # Beethoven composes F?r Elise
 	title = ev_20000319
 	desc = desc_ev_20000319
 	picture = Beethoven
@@ -8877,7 +8921,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 20000337 # Simón Bolivar proclaims the Republic of Gran Colombia
+	id = 20000337 # Sim? Bolivar proclaims the Republic of Gran Colombia
 	title = ev_20000337
 	desc = desc_ev_20000337
 	picture = Bolivar
@@ -9824,7 +9868,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 20000351 # Bolívar named dictator of Peru
+	id = 20000351 # Bol?ar named dictator of Peru
 	title = ev_20000351
 	desc = desc_ev_20000351
 	picture = bolivar
@@ -10983,7 +11027,7 @@ fire_only_once = yes
 country_event = {
 
 id = 21000301
-title = ev_21000301 #Russo-Persian War (1803–1813)
+title = ev_21000301 #Russo-Persian War (1803?1813)
 desc = ev_21000301
 picture = ""
 fire_only_once = yes
@@ -11048,7 +11092,7 @@ fire_only_once = yes
 country_event = {
 
 id = 21000302
-title = ev_21000302 #Egyptian Revolution (1804–1813)
+title = ev_21000302 #Egyptian Revolution (1804?1813)
 desc = ev_21000302
 picture = ""
 fire_only_once = yes
@@ -11219,7 +11263,7 @@ fire_only_once = yes
 country_event = {
 
 id = 21000305
-title = ev_21000305 #Egyptian–Wahhabi War
+title = ev_21000305 #Egyptian?Wahhabi War
 desc = ev_21000305
 picture = ""
 fire_only_once = yes
@@ -11485,7 +11529,7 @@ fire_only_once = yes
 country_event = {
 		
 id = 21000309
-title = ev_21000309 #Spanish Reconquista of Mexico (1821–1829)
+title = ev_21000309 #Spanish Reconquista of Mexico (1821?1829)
 desc = ev_21000309
 picture = ""
 fire_only_once = yes
@@ -11541,7 +11585,7 @@ fire_only_once = yes
 country_event = {
 
 id = 21000310
-title = ev_21000310 #Russo-Persian War (1826–1828)
+title = ev_21000310 #Russo-Persian War (1826?1828)
 desc = ev_21000310
 picture = ""
 fire_only_once = yes
@@ -11701,7 +11745,7 @@ fire_only_once = yes
 country_event = {
 
 id = 21000313
-title = ev_21000313 #Egyptian-Ottoman War (1831–33)
+title = ev_21000313 #Egyptian-Ottoman War (1831?33)
 desc = ev_21000313
 picture = ""
 fire_only_once = yes
@@ -11764,7 +11808,7 @@ fire_only_once = yes
 country_event = {
 
 id = 21000314
-title = ev_21000314 #French Conquest of Algeria (1830–1847)
+title = ev_21000314 #French Conquest of Algeria (1830?1847)
 desc = ev_21000314
 picture = ""
 fire_only_once = yes

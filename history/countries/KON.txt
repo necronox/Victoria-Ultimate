@@ -2,7 +2,7 @@
 
 #========================= H E A D E R =========================
 
-capital = 1900
+capital = 1898
 primary_culture = mande
 culture = african_minor
 culture = bambara

@@ -1,8 +1,7 @@
-owner = HRE
-
-controller = HRE
+owner = LUB
+controller = LUB
 add_core = LUB
-add_core = HRE
+add_core = GER
 
 add_core = GER
 naval_base = 1

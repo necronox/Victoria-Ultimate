@@ -1,8 +1,7 @@
-owner = HRE
-controller = HRE
-add_core = HRE
-add_core = GER
+owner = LUN
+controller = LUN
 add_core = LUN
+add_core = GER
 trade_goods = cattle
 life_rating = 40
 

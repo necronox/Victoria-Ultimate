@@ -1,6 +1,6 @@
-owner = HRE
-controller = HRE
-add_core = HRE
+owner = OSN
+controller = OSN
+add_core = BRA
 add_core = GER
 add_core = MUN
 add_core = OSN

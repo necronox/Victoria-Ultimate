@@ -1,5 +1,5 @@
-owner = HRE
-controller = HRE
+owner = CLV
+controller = CLV
 add_core = CLV
 add_core = HRE
 add_core = GER

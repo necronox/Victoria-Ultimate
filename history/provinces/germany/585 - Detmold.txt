@@ -1,5 +1,5 @@
-owner = HRE
-controller = HRE
+owner = LIP
+controller = LIP
 
 add_core = LIP
 

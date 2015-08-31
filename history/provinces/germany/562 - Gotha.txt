@@ -1,7 +1,6 @@
-owner = HRE
-controller = HRE
+owner = COB
+controller = COB
 add_core = COB
-controller = HRE
 add_core = GER
 
 1604.1.1 = { 

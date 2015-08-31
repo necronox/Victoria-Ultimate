@@ -1,5 +1,5 @@
-owner = HRE
-controller = HRE
+owner = HAM
+controller = HAM
 add_core = HAM
 
 add_core = DEN

@@ -1,7 +1,6 @@
-owner = HRE
-controller = HRE
+owner = ANS
+controller = ANS
 add_core = ANS
-add_core = HRE
 
 1604.1.1 = { 
 	owner = ANS

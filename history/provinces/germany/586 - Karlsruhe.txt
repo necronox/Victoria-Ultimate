@@ -1,5 +1,5 @@
-owner = HRE
-controller = HRE
+owner = BAD
+controller = BAD
 add_core = BAD
 
 add_core = HRE

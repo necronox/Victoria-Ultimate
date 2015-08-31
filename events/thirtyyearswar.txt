@@ -1,0 +1,739 @@
+#####################################
+#									#
+#	Thirty Years War 1618 - 1648	#
+#									#
+#		Written By Necronox			#
+#      For Victoria Ultimate		#
+# 									#
+#####################################
+#	
+#	#### IDs 1000200 - 1000299 Reserves for this
+#	
+#	#### Independance for Northern German States
+#	
+#	country_event = {
+#			id = 1000205
+#			title = "Protestands have had enough!"
+#			desc = "Protestants have declared indepandance, they've have enough #	with the Holy Roman Empire! and they support the protestants!"
+#	
+#			trigger = {
+#				tag = HRE
+#				year = 1618
+#				NOT = { has_country_flag = TW_north_rebels}
+#				has_country_flag = TW_catholic_setup
+#			}
+#			fire_only_once = yes
+#			option = {
+#				name = "Fine!"
+#				any_pop = {
+#					limit = {
+#						religion = portestant
+#					}
+#					militancy = 10
+#				}
+#	
+#				release = MEC
+#				release = BRA
+#				release = BDB
+#				release = PMR
+#				release = SAX
+#				release = NET
+#				release = LUN
+#				release_vassal = MEC
+#				release_vassal = BRA
+#				release_vassal = BDB
+#				release_vassal = PMR
+#				release_vassal = SAX
+#				release_vassal = NET
+#				release_vassal = LUN
+#				set_country_flag = TW_north_rebels
+#				prestige = -15
+#				ENG = {
+#					create_alliance = MEC
+#					create_alliance = BRA
+#					create_alliance = BDB
+#					create_alliance = PMR
+#					create_alliance = SAX
+#					create_alliance = NET
+#					create_alliance = LUN
+#				}
+#				create_alliance = SPA
+#				war = {
+#					target = MEC
+#					attacker_goal = {
+#						casus_belli = conquest
+#					}
+#					cally_ally = yes
+#				}
+#				war = {
+#					target = BRA
+#					attacker_goal = {
+#						casus_belli = conquest
+#					}
+#					cally_ally = yes
+#				}
+#				war = {
+#					target = BDB
+#					attacker_goal = {
+#						casus_belli = conquest
+#					}
+#					cally_ally = yes
+#				}
+#				war = {
+#					target = PMR
+#					attacker_goal = {
+#						casus_belli = conquest
+#					}
+#					cally_ally = yes
+#				}
+#				war = {
+#					target = SAX
+#					attacker_goal = {
+#						casus_belli = conquest
+#					}
+#					cally_ally = yes
+#				}
+#				war = {
+#					target = NET
+#					attacker_goal = {
+#						casus_belli = conquest
+#					}
+#					cally_ally = yes
+#				}
+#				war = {
+#					target = LUN
+#					attacker_goal = {
+#						casus_belli = conquest
+#					}
+#					cally_ally = yes
+#				}
+#				badboy = -200
+#			}
+#	}
+#	
+#	#### Initial set up
+#	
+#	country_event = {
+#		id = 1000200
+#		title = "Religious Upheaval!"
+#		desc = "Since the peace of augsburg in 1555, protestants in north germany #	have become restless, We must force those heretics out!"
+#	
+#		trigger = {
+#			tag = HRE
+#			year = 1618
+#		}
+#		fire_only_once = yes
+#		mean_time_to_happen = {
+#			months = 20
+#		}
+#		option = {
+#			name = "Stamp out those protestants!"
+#			set_country_flag = TW_catholic_setup
+#			prestige = 13
+#			ai_will_do = { factor = 1 }
+#		}
+#		option = {
+#			name = "they won fair and square!"
+#			prestige = -25
+#		}
+#	}
+#	
+#	# Austria joins the catholics
+#	
+#	country_event = {
+#		id = 1000201
+#		title = "Religious Upheaval!"
+#		desc = "Since the peace of augsburg in 1555, protestants in north germany #	have become restless, We must force those heretics out!"
+#	
+#		trigger = {
+#			tag = AUS
+#			year = 1618
+#		}
+#		fire_only_once = yes
+#		option = {
+#			name = "Stamp out those protestants!"
+#			set_country_flag = TW_catholic_setup
+#			create_alliance = HRE
+#			relation = {
+#				who = HRE
+#				value = 400
+#			}
+#			ai_will_do = { factor = 1 }
+#		}
+#		option = {
+#			name = "they won fair and square!"
+#		}
+#	}
+#	
+#	# Spain joins the catholics
+#	
+#	country_event = {
+#		id = 1000202
+#		title = "Get Invovled?"
+#		desc = "The Holy Roman Empire is in deep religious termoil, should we ally #	ourself with them to protect out lands in the netherlands and italy?"
+#	
+#		trigger = {
+#			year = 1618
+#			HRE = { has_country_flag = TW_catholic_setup }
+#			tag = SPA
+#		}
+#		fire_only_once = yes
+#	
+#		option = {
+#			name = "We must protect out lands!"
+#			relation = {
+#				who = HRE
+#				value = 400
+#			}
+#			create_alliance = HRE
+#			prestige = 24
+#			set_country_flag = TW_catholic_setup
+#		}
+#		option = {
+#			name = "No, we must stay out!"
+#			prestige = -25
+#		}
+#	}
+#	
+#	#Poland joins the Catholics
+#	country_event = {
+#		id = 1000203
+#		title = "Get Invovled?"
+#		desc = "The Holy Roman Empire is on the brink of war, we must strive to #	keep the peace!"
+#	
+#		trigger = {
+#			year = 1618
+#			HRE = { has_country_flag = TW_catholic_setup }
+#			OR = {
+#				tag = PLC
+#				tag = POL
+#				tag = LIT
+#			}
+#		}
+#		fire_only_once = yes
+#	
+#		option = {
+#			name = "We must protect out lands!"
+#			relation = {
+#				who = HRE
+#				value = 400
+#			}
+#			create_alliance = HRE
+#			prestige = 24
+#			set_country_flag = TW_catholic_setup
+#		}
+#		option = {
+#			name = "No, we must stay out!"
+#			prestige = -25
+#		}
+#	}
+#	
+#	#Denmark joins catholics
+#	
+#	country_event = {
+#		id = 1000204
+#		title = "Get Invovled?"
+#		desc = "The Holy Roman Empire is on the brink of war, if we support them, #	we may gain some lands in northern germany!"
+#	
+#		trigger = {
+#			year = 1618
+#			HRE = { has_country_flag = TW_catholic_setup }
+#			OR = {
+#				tag = PLC
+#				tag = POL
+#				tag = LIT
+#			}
+#			relation = {
+#				who = HRE
+#				value = 100
+#			}
+#		}
+#		fire_only_once = yes
+#	
+#		option = {
+#			name = "We must protect out lands!"
+#			relation = {
+#				who = HRE
+#				value = 400
+#			}
+#			create_alliance = HRE
+#			prestige = 24
+#			set_country_flag = TW_catholic_setup
+#		}
+#		option = {
+#			name = "No, we must stay out!"
+#			prestige = -25
+#		}
+#	}
+#	
+#	### Protestant and Anti-Habsburg set ups
+#	
+#	#France
+#	
+#	country_event = {
+#		id = 1000206
+#		title = "Holy Roman Empire in Decline!"
+#		desc = "The Holy Roman Empire is at war with itself! we can seize this #	chance and expand out influence in Germany!"
+#	
+#		trigger = {
+#			year = 1618
+#			tag = FRA
+#			NOT = { war_with = HRE }
+#			NOT = { has_country_flag = TW_protestant_setup }
+#		}
+#		fire_only_once = yes
+#	
+#		option = {
+#			name = "Take the chance!"
+#			relation = {
+#				who = HRE
+#				value = -400
+#			}
+#			prestige = 24
+#			set_country_flag = TW_protestant_setup
+#		}
+#		option = {
+#			name = "No, i'm whimping out!"
+#			prestige = -25
+#		}
+#	}
+#	
+#	# Other Countries (ENG DEN BOH Northern German States, England, Scotland, #	Ottomans etc...)
+#	
+#	country_event = {
+#		id = 1000207
+#		title = "Holy Roman Empire in Decline!"
+#		desc = "The Holy Roman Empire is at war with itself! do we want to take the #	chance and take them out of the picture?"
+#	
+#		trigger = {
+#			year = 1618
+#			OR = {
+#				tag = ENG
+#				tag = SCO
+#				tag = TUR
+#				tag = RUS
+#				tag = MEC
+#				tag = BRA
+#				tag = BRD
+#				tag = PMR
+#				tag = SAX
+#				tag = NET
+#				tag = LUN
+#				tag = NET
+#				tag = SWE
+#			}
+#			NOT = { has_country_flag = TW_protestant_setup }
+#		}
+#	
+#		option = {
+#			name = "Take the chance!"
+#			relation = {
+#				who = HRE
+#				value = -400
+#			}
+#			relation = {
+#				who = FRA
+#				value = 400
+#			}
+#			prestige = 24
+#			set_country_flag = TW_protestant_setup
+#			create_alliance = FRA
+#		}
+#		option = {
+#			name = "No, i'm whimping out!"
+#			prestige = -25
+#		}
+#	}
+#	
+#	#Bohemian Revolt!
+#	country_event = {
+#			id = 1000208
+#			name = "Protestands have had enough!"
+#			desc = "The Bohemians have declared independance from the Habsburgs! we #	have already sent for our allies, but i fear it will be too late! war #	is upon us!"
+#	
+#			trigger = {
+#				tag = AUS
+#				year = 1610
+#				NOT = { has_country_flag = TW_boh_rebels}
+#			}
+#			fire_only_once = yes
+#			option = {
+#				name = "Fine!"
+#				release = BOH
+#				release_vassal = BOH
+#				set_country_flag = TW_boh_rebels
+#				prestige = -15
+#				BOH = {
+#					create_alliance = TUR 
+#					create_alliance = ENG 
+#				}
+#	
+#				AUS = {
+#					war = {
+#						target = BOH
+#						attacker_goal = {
+#							casus_belli = conquest
+#						}
+#					}
+#					call_ally = yes
+#				}
+#			}	
+#	}
+#	
+#	#Transylvania declares independance and joins anti_habsburgs
+#	country_event = {
+#		id = 1000210
+#		name = "Transylvania has join our rivals!"
+#		desc = "Following the bohemians, the transylvanians have declared #	independance, allying themselves with the ottomans!"
+#		trigger = {
+#			tag = AUS
+#			has_country_flag = TW_boh_rebels
+#		}
+#		fire_only_once = yes
+#		option = { 
+#			name = "Fine, we'll crush them aswell!"
+#			release = SIE
+#			release_vassal = SIE
+#			SIE = { create_alliance = TUR }
+#			AUS = {
+#					war = {
+#						target = SIE
+#						attacker_goal = {
+#							casus_belli = conquest
+#						}
+#						call_ally = yes
+#					}
+#			}
+#		}
+#	}
+#	
+#	#Ottomans Wars!
+#	country_event = {
+#			id = 1000211
+#			name = "War!"
+#			desc = "The polish as supporting the Holy Roman Empire! we must stop #	them!"
+#			trigger = {
+#				tag = TUR
+#				has_country_flag = TW_protestand_setup
+#			}
+#			option = {
+#				name = "Support our allies!"
+#				war = {
+#					target = AUS
+#					attacker_goal = {
+#						casus_belli = cut_down_to_size
+#					}
+#				}
+#				war = {
+#					target = PLC
+#					attacker_goal = {
+#						casus_belli = cut_down_to_size
+#					}
+#				}
+#			}
+#			option = {
+#				name = "Their on their own."
+#				prestige = -30
+#			}
+#	}
+#	
+#	#Spanish quell rebels in rhineland!
+#	country_event = {
+#		id = 1000212
+#		name = "Spanish intervention!"
+#		desc = "The Spanish comes to our aid! they currently quelling rebellions in #	germany!"
+#		trigger = {
+#			tag = HRE
+#			year = 1621
+#			has_country_flag = TW_catholic_setup
+#		}
+#		fire_only_once = yes
+#		option = {
+#			name = "Yes!"
+#			any_pop = {
+#				militancy = -6
+#			}
+#		}
+#			
+#	}
+#	
+#	#Huguenot Rebellions in France
+#	country_event = {
+#		id = 1000213
+#		name = "Huguenot Rebel!"
+#		desc = "the Huguenot, french protestants, have rebelled against our rule!"
+#		trigger = {
+#			tag = FRA
+#			year = 1620
+#			HRE = { has_country_flag = TW_catholic_setup }
+#		}
+#		fire_only_once = yes
+#		option = {
+#			name = "Damn! Crush them!"
+#			any_pop = {
+#				limit = {
+#					religion = protestant
+#				}
+#				militancy = 10
+#			}
+#		}
+#	}
+#	
+#	#Danish Intervention
+#	country_event = {
+#		id = 1000214
+#		name = "Danish Intervention!"
+#		desc = "the Danish, funded by the french, english and swedish have join the #	war against us!"
+#		trigger = {
+#			year = 1625
+#			HRE = { has_country_flag = TW_catholic_setup }
+#		}
+#		option = {
+#			name = "damn!""
+#			DEN = {
+#			event = 1000215
+#			money = 785000
+#				war = {
+#					target = HRE
+#					attacker_goal = {
+#						casus_belli = cut_down_to_size
+#					}
+#				}
+#			}
+#		}
+#	}
+#	
+#	country_event = {
+#		id = 1000215
+#		name = "Danish Intervention!"
+#		desc = "We must support the north germans! our ambassador has sent word war #	has already been declared, luckily, the french, english and swedish have #	sent a sizable donation to help!"
+#		is_triggered_only = yes
+#	
+#		option = {
+#			name = "Fine!"
+#			money = 150000
+#			prestige = 10
+#		}
+#	}
+#	
+#	#Swedish Intervention
+#	country_event = {
+#		id = 1000216
+#		name = "Treaty of Stettin"
+#		desc = "The treaty of Stettin has been signed, we will gain Pomerania as an #	ally"
+#		trigger = {
+#			year = 1630
+#			tag = SWE
+#		}
+#		fire_only_once = yes
+#		option = {
+#			name = "Yes!"
+#			HRE = {
+#			end_war = PMR
+#			release = PMR
+#			}
+#			create_vassal = PMR
+#			set_global_flag = TW_treaty_of_stettin
+#		}
+#	}
+#	
+#	country_event = {
+#		id = 1000217
+#		name = "War with HRE?"
+#		desc = "We should support our allies, that is obvious, We should declare #	war agains the HRE."
+#		trigger = {
+#			year = 1630
+#			tag = SWE
+#			is_our_vassal = PMR
+#		}
+#		fire_only_once = yes
+#		option = {
+#			name = "War it is!"
+#			war = {
+#				target = HRE
+#				attacker_goal = {
+#					casus_belli = cut_down_to_size
+#				}
+#			}
+#		}
+#		option = {
+#			name = "Maybe not...."
+#		}
+#	}
+#	
+#	#France joins the war
+#	country_event = {
+#		id = 1000218
+#		name = "War?"
+#		desc = "The habsburg has too much land in europe, we must curb them, they #	are at war with everybody, and we therefore could curb their power!"
+#		trigger = {
+#			year = 1635
+#			tag = FRA
+#		}
+#		fire_only_once = yes
+#		option = {
+#			name = "War it is!"
+#			war = {
+#				target = SPA
+#					attacker_goal = {
+#						casus_belli = acquire_all_cores
+#					}
+#			}
+#			war = {
+#				target = HRE
+#					attacker_goal = {
+#						casus_belli = acquire_all_cores
+#					}
+#			}
+#			money = 900000
+#			prestige = 30
+#			any_pop = {
+#				militancy = -10
+#			}
+#		}
+#		option = {
+#			name = "Maybe not...."
+#		}
+#	}
+#	
+#	#England joins the war 
+#	country_event = {
+#		id = 1000219
+#		name = "War?"
+#		desc = "France has declare war with the Holy Roman Empire and Spain, should #	we join them?"
+#		trigger = {
+#			tag = ENL
+#			year = 1630
+#		}
+#		fire_only_once = yes
+#		option = {
+#			name = "War it is!"
+#			war = {
+#				target = HRE
+#				attacker_goal = {
+#					casus_belli = cut_down_to_size
+#				}
+#			}
+#			war = {
+#				target = HRE
+#				attacker_goal = {
+#					casus_belli = cut_down_to_size
+#				}
+#			}
+#		}
+#		option = {
+#			name = "Maybe not..."
+#		}
+#	}
+#	
+#	#peace of westphalia
+#	country_event = {
+#		id = 1000220
+#		name = "We are Defeated!"
+#		desc = "We have been defeated, we must sue for peace and hope for the best!"
+#		trigger = {
+#		tag = HRE
+#		year = 1640
+#		}
+#		option = {
+#		HRE = {
+#			release = CLG
+#			release = AAC
+#			release = ALS
+#			release = ANH
+#			release = ANS
+#			release = AUG
+#			release = AUS
+#			release = BAD
+#			release = BAV
+#			release = BEL
+#			release = BOH
+#			release = BRA
+#			release = BRE
+#			release = CLV
+#			release = COB
+#			release = DZG
+#			release = EMD
+#			release = HAM
+#			release = HAN
+#			release = HEK
+#			release = HES
+#			release = HOL
+#			release = KRA
+#			release = LIP
+#			release = LOR
+#			release = LUB
+#			release = LUN
+#			release = LUX
+#			release = MEC
+#			release = MEI
+#			release = MUN
+#			release = NAS
+#			release = NET
+#			release = OLD
+#			release = OSN
+#			release = PMR
+#			release = SAX
+#			release = SCH
+#			release = SGR
+#			release = SWI
+#			release = TRE
+#			release = TRR
+#			release = WEI
+#			release = WES
+#			release = WUR
+#			release = WUZ
+#	
+#			create_vassal = CLG
+#			create_vassal = AAC
+#			create_vassal = ALS
+#			create_vassal = ANH
+#			create_vassal = ANS
+#			create_vassal = AUG
+#			create_vassal = AUS
+#			create_vassal = BAD
+#			create_vassal = BAV
+#			create_vassal = BEL
+#			create_vassal = BOH
+#			create_vassal = BRA
+#			create_vassal = BRE
+#			create_vassal = CLV
+#			create_vassal = COB
+#			create_vassal = DZG
+#			create_vassal = EMD
+#			create_vassal = HAM
+#			create_vassal = HAN
+#			create_vassal = HEK
+#			create_vassal = HES
+#			create_vassal = HOL
+#			create_vassal = KRA
+#			create_vassal = LIP
+#			create_vassal = LOR
+#			create_vassal = LUB
+#			create_vassal = LUN
+#			create_vassal = LUX
+#			create_vassal = MEC
+#			create_vassal = MEI
+#			create_vassal = MUN
+#			create_vassal = NAS
+#			create_vassal = OLD
+#			create_vassal = OSN
+#			create_vassal = PMR
+#			create_vassal = SAX
+#			create_vassal = SCH
+#			create_vassal = SGR
+#			create_vassal = TRE
+#			create_vassal = TRR
+#			create_vassal = WEI
+#			create_vassal = WES
+#			create_vassal = WUR
+#			create_vassal = WUZ
+#		}
+#	
+#		}
+#	
+#	}
+#	
+#	
+#	
+#	

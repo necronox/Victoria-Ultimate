@@ -919,3 +919,103 @@ vassal = {
 	start_date = 1815.1.1
 	end_date = 1863.1.1
 }
+
+#########################
+#						#
+#  	HOLY ROMAN EMPIRE 	#
+#						#
+#########################
+
+vassal = {	first = AUS 	second = CLG 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = AAC 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = ALS 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = ANH 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = ANS 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = AUG 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = AUS 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = BAD 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = BAV 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = BEL 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = BOH 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = BRA 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = BRE 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = CLV 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = COB 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = DZG 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = EMD 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = HAM 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = HAN 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = HEK 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = HES 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = HOL 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = KRA 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = LIP 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = LOR 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = LUB 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = LUN 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = LUX 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = MEC 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = MEI 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = MUN 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = NAS 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = OLD 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = OSN 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = PMR 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = SAX 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = SCH 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = SGR 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = TRE 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = TRR 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = WEI 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = WES 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = WUR 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = WUZ 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = PLT 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = BDB 	start_date = 1600.1.1	end_date = 1806.1.1 }
+vassal = {	first = AUS 	second = SXL 	start_date = 1600.1.1	end_date = 1806.1.1 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
