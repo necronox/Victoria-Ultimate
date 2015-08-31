@@ -5,7 +5,7 @@ country_event = {
 	id = 1000100
 	title = "First Turko-Egyptian War" # The Fate of Egypt (initiate Oriental Crisis)
 	desc = "With Muhammad Ali Pasha's seizure of power over egypt, we have the ability to secure lands in ottoman Syria and Aleppo and Adana. Our military already stands strong! "
-
+  fire_only_once = yes
 	trigger = {
 		tag = EGY
 		year = 1831
@@ -99,7 +99,7 @@ country_event = {
 	id = 1000101
 	title = "Parlay with the Sultan?" # The Fate of Egypt (initiate Oriental Crisis)
 	desc = "The Ottomans army has been defeated! we have taken important lands from them and we should be able to take peace!"
-
+  fire_only_once = yes
 	trigger = {
 		tag = EGY
 		year = 1831
@@ -141,7 +141,7 @@ country_event ={
 	id = 1000102
 	title = "Convention of London"
 	desc = "The european great powers, fearing an unstable balkan, has pressed of for peace and send demands. Do we want to surrender claims in the levant?"
-
+  fire_only_once = yes
 	trigger = {
 		year = 1840
 		NOT = { war_with = TUR }

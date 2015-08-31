@@ -527,3 +527,26 @@ province_event = {
 		}
 	}
  }
+
+ country_event = {
+ id = 10000006
+ title = "AI EVENT ONLY"
+ desc = "AI event ONLY"
+ trigger = {
+ 	year = 1630
+ 	ai = yes
+ 	tag = SIB
+ }
+  fire_only_once = yes
+ option = {
+ 	name = "placeholder"
+ 	RUS = {
+ 		war = {
+ 			target = SIB
+ 			attacker_goal = {
+ 				casus_belli = establish_protectorate_casus_belli
+ 			}
+ 		}
+ 	}
+ }
+ }

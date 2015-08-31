@@ -43,6 +43,7 @@ SVT		= "countries/South Vietnam.txt"
 TGA		= "countries/Tonga.txt"
 TVL		= "countries/Tuvalu.txt"
 SIB 	= "countries/Siberia.txt"
+MOG     = "countries/MOG.txt"
 
 #Chinese Cliques
 FTC		= "countries/Fengtian Clique.txt"

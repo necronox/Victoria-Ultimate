@@ -1,6 +1,7 @@
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = TIB
+controller = TIB
+add_core = TIB
+
 
 1644.1.1 = {
 	owner = CHI
