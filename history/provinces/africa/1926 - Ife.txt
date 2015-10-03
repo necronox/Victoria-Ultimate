@@ -1,6 +1,8 @@
 owner = OYO
-add_core = OYO
 controller = OYO
+add_core = OYO
+trade_goods = tropical_wood
+life_rating = 35
 
 #Rubber discovered!
 1890.1.1 = {
@@ -14,8 +16,6 @@ controller = OYO
 		}
 
 
-trade_goods = tropical_wood
-life_rating = 15
 1903.2.2 = {
 	add_core = NGR
 		}

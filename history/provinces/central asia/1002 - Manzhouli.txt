@@ -1,5 +1,6 @@
-owner = MCK
-controller = MCK
+owner = MNG
+controller = MNG
+add_core = MNG
 add_core = MCK
 
 1644.1.1 = {

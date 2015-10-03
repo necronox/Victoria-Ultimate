@@ -1,7 +1,5 @@
-owner = ARO
-add_core = ARO
-controller = ARO
-
+trade_goods = timber
+life_rating = 10
 
 1903.1.1 = {
 		owner = FRA
@@ -19,8 +17,7 @@ controller = ARO
 		controller = FRA
 		}
 		
-trade_goods = timber
-life_rating = 15
+
 
 add_core = CMR
 1960.1.1 = {

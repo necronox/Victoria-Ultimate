@@ -1,6 +1,5 @@
-owner = HDJ
-controller = HDJ
-add_core = HDJ
+owner = TUR
+controller = TUR
 1810.1.1 = {
 owner = HDJ
 controller = HDJ

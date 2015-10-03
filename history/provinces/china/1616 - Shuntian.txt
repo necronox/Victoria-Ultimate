@@ -1,31 +1,30 @@
-owner = MGL
-controller = MGL
-add_core = MGL
+owner = MNG
+controller = MNG
+add_core = MNG
 
+1644.1.1 = {
+	owner = CHI
+	controller = CHI
+	add_core = CHI
+	remove_core = MNG
+		}
 
-#1644.1.1 = {
-#	owner = CHI
-#	controller = CHI
-#	add_core = CHI
-#	remove_core = MNG
-#		}
-#
-#1911.1.1 = {
-#	owner = KMT	
-#	controller = KMT
-#	add_Core = KMT
-#		}
-#
-#1920.1.1 = {
-#	owner = SXI	
-#	controller = SXI
-#		}
-#
-#1945.1.1 = {
-#	owner = CHI
-#	controller = CHI
-#		}
-#
+1911.1.1 = {
+	owner = KMT	
+	controller = KMT
+	add_Core = KMT
+		}
+
+1920.1.1 = {
+	owner = SXI	
+	controller = SXI
+		}
+
+1945.1.1 = {
+	owner = CHI
+	controller = CHI
+		}
+
 
 trade_goods = tea
 life_rating = 32

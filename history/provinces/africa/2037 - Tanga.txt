@@ -1,7 +1,6 @@
-add_core = SWA
-owner = SWA
-controller = SWA
-
+owner = OMA
+controller = OMA
+add_core = OMA
 add_core = ZAN
 
 

@@ -2,8 +2,7 @@ political_decisions = {
 	brandenburg_prussia = {
 	picture = branprupic
 		potential = {
-			tag = BPR
-            year = 1690
+			tag = BDB
 			NOT = {
 			year = 1714
 				}

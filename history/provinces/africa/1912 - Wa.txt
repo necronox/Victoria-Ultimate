@@ -1,7 +1,8 @@
 owner = FAN
-add_core = FAN
 controller = FAN
-
+add_core = FAN
+trade_goods = grain
+life_rating = 35
 
 1903.1.1 = {
 		owner = ENG
@@ -10,8 +11,6 @@ controller = FAN
 		}
 
 
-trade_goods = grain
-life_rating = 15
 add_core = GHA
 1960.1.1 = {
 	owner = GHA

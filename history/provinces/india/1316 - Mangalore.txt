@@ -1,5 +1,5 @@
-	owner = POR
-	controller = POR
+	owner = MYS
+	controller = MYS
 	add_core = MYS
 1818.1.1 = {
 	owner = ENG #hello

@@ -1,7 +1,6 @@
 owner = MUT
-add_core = MUT
 controller = MUT
-
+add_core = MUT
 trade_goods = iron
 life_rating = 35
 

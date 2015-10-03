@@ -1,5 +1,3 @@
-add_core = SIX
-owner = SIX
 trade_goods = cattle
 life_rating = 35
 1867.1.1 = {

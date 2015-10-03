@@ -1,6 +1,6 @@
-owner = MOG
-controller = MOG
-add_core = MOG
+owner = MNG
+controller = MNG
+add_core = MNG
 
 1644.1.1 = {
 	owner = CHI

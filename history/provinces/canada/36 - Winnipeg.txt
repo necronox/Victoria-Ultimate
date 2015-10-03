@@ -1,5 +1,4 @@
 add_core = MTC
-owner = MTC
 trade_goods = grain
 life_rating = 30
 

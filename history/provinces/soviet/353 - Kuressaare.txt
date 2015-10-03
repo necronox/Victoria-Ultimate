@@ -24,7 +24,7 @@ add_core = EST
 		owner = EST
 		}
 add_core = UBD
-trade_goods = fish
+trade_goods = grain
 life_rating = 35
 
 

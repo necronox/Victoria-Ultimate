@@ -1,6 +1,8 @@
 owner = ARO
-add_core = ARO
 controller = ARO
+add_core = ARO
+trade_goods = tropical_wood
+life_rating = 35
 
 #Rubber discovered!
 1890.1.1 = {
@@ -14,8 +16,7 @@ controller = ARO
 		}
 
 
-trade_goods = tropical_wood
-life_rating = 15
+
 1903.2.2 = {
 	add_core = NGR
 		}

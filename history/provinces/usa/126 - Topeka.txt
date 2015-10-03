@@ -1,5 +1,9 @@
 owner = SIX
-colonial = 1
+controller = SIX
+add_core = SIX
+trade_goods = grain
+life_rating = 35
+
 1764.1.1 = {
 	owner = SPA
 	controller = SPA
@@ -21,8 +25,6 @@ colonial = 1
 	add_core = USA
 		}
 
-trade_goods = fur
-life_rating = 35
 1867.1.1 = {
 	owner = USA
 	controller = USA

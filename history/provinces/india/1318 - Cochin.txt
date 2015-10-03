@@ -1,5 +1,6 @@
-owner = POR
-controller = POR
+owner = MDR
+controller = MDR
+add_core = MDR
 1764.1.1 = {
 owner = TRA
 controller = TRA

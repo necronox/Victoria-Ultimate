@@ -1,6 +1,3 @@
-owner = DAR
-add_core = DAR
-controller = DAR
 trade_goods = wool
 life_rating = 15
 

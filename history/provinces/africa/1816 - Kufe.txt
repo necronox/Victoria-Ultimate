@@ -1,6 +1,3 @@
-owner = HAU
-add_core = HAU
-controller = HAU
 trade_goods = grain
 life_rating = 10
 

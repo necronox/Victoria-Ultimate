@@ -1,5 +1,6 @@
-add_core = CMC
 owner = CMC
+controller = CMC
+add_core = CMC
 trade_goods = grain
 life_rating = 35
 

@@ -1,7 +1,8 @@
-owner = KNG
-add_core = KNG
-controller = KNG
-
+owner = KON
+controller = KON
+add_core = KON
+trade_goods = timber
+life_rating = 35
 
 1903.1.1 = {
 		owner = BEL
@@ -18,5 +19,4 @@ controller = KNG
 		colonial = 0
 		}
 
-trade_goods = timber
-life_rating = 15
+

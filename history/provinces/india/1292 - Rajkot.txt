@@ -1,6 +1,5 @@
-owner = POR
-controller = POR
-colonial = 2
+owner = MUG
+controller = MUG
 
 1818.1.1 = {
 owner = BER

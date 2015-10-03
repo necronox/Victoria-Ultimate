@@ -1,5 +1,9 @@
-add_core = IRO
 owner = IRO
+	controller = IRO
+	add_core = IRO
+trade_goods = coal
+life_rating = 35
+
 1714.1.1 = {
 	owner = THC
 	controller = THC
@@ -15,8 +19,6 @@ party_loyalty = {
 	loyalty_value = 15
 }
 		}
-trade_goods = coal
-life_rating = 35
 1867.1.1 = { 	#AFTER CIVIL WAR
 	owner = USA	#AFTER CIVIL WAR
 

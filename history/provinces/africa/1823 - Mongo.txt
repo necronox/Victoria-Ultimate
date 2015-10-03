@@ -1,9 +1,5 @@
-owner = DAR
-add_core = DAR
-controller = DAR
-
 trade_goods = grain
-life_rating = 15
+life_rating = 10
 
 1903.1.1 = {
 		owner = FRA

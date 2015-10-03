@@ -1,7 +1,6 @@
-owner = LBA
 add_core = LBA
-controller = LBA
-
+trade_goods = tropical_wood
+life_rating = 10
 
 #Rubber discovered!
 1890.1.1 = {
@@ -22,6 +21,3 @@ controller = LBA
 		add_core = CNG
 		colonial = 0
 		}
-
-trade_goods = tropical_wood
-life_rating = 15

@@ -4,6 +4,8 @@ form_bradenburg-prussia = {
 picture = Bradenburg_1600
 	potential = {
 			tag = BDB
+			
+		
 }
 
 	allow = {
@@ -18,14 +20,9 @@ picture = Bradenburg_1600
 
 	effect = {
 		any_owned = {
-			limit = {
-				is_core = BDB
+				add_core = BPR
 			}
-			add_core = BPR
-			}
-		BDB = {
-		change_tag = BPR
-		}
+			change_tag = BPR
 }
 }
 }

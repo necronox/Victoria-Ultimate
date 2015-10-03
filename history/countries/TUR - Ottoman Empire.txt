@@ -5,25 +5,13 @@ government = absolute_monarchy
 plurality = 0
 nationalvalue = nv_order
 literacy = 0.04
-civilized = no
+civilized = yes
 
 #GreaterPowers = prestige
-prestige = 5 #was 40
-
-#Almost civilized reforms
-land_reform = yes_land_reform
-admin_reform = yes_admin_reform
-finance_reform = yes_finance_reform
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-military_constructions = yes_military_constructions
-army_schools = yes_army_schools
-foreign_officers = yes_foreign_officers
-pre_indust = yes_pre_indust
-transport_improv = yes_transport_improv
+prestige = 20 #was 40
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = yes_meeting

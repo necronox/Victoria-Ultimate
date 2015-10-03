@@ -1,6 +1,8 @@
 #Sphere of Influence
 PER = {
-	value = -200	#relation
+	value = 75		#relation
+	level = 2		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
 }
 
 EGY = {

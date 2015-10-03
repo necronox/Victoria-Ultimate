@@ -1,4 +1,6 @@
-colonial = 1
+trade_goods = grain
+life_rating = 40
+
 1700.1.1 = {
 owner = FRA
 controller = FRA
@@ -20,8 +22,7 @@ colonial = 2
 	add_core = USA
 	colonial = 0
 		}
-trade_goods = grain
-life_rating = 29
+
 1867.1.1 = {
 	owner = USA
 	controller = USA

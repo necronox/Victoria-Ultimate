@@ -1,7 +1,8 @@
 owner = KNR
-add_core = KNR
 controller = KNR
-
+add_core = KNR
+trade_goods = grain
+life_rating = 35
 
 1903.1.1 = {
 		owner = ENG
@@ -10,8 +11,7 @@ controller = KNR
 		}
 
 
-trade_goods = fish
-life_rating = 15
+
 1903.2.2 = {
 	add_core = NGR
 		}

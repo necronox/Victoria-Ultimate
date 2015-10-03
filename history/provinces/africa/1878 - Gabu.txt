@@ -1,6 +1,6 @@
-owner = KAA
-add_core = KAA
-controller = KAA
+owner = GBU
+controller = GBU
+add_core = GBU
 trade_goods = grain
 life_rating = 15
 
@@ -10,9 +10,9 @@ life_rating = 15
 		colonial = 2
 		}
 
-add_core = GUB
+
 1960.1.1 = {
-	owner = GUB
-	controller = GUB
+	owner = GBU
+	controller = GBU
 	colonial = 0
 		}

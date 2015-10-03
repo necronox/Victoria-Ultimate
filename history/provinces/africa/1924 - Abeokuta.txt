@@ -1,7 +1,8 @@
-owner = DAH
-add_core = DAH
-controller = DAH
-
+owner = OYO
+controller = OYO
+add_core = OYO
+trade_goods = grain
+life_rating = 35
 
 1903.1.1 = {
 		owner = ENG
@@ -10,8 +11,7 @@ controller = DAH
 		}
 
 
-trade_goods = grain
-life_rating = 15
+
 1903.2.2 = {
 	add_core = NGR
 		}

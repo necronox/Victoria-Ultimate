@@ -1,6 +1,3 @@
-add_core = SWA
-owner = SWA
-controller = SWA
 
 
 1903.1.1 = {

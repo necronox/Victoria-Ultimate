@@ -1,6 +1,8 @@
-owner = KNG
-add_core = KNG
-controller = KNG
+owner = KON
+controller = KON
+add_core = KON
+trade_goods = iron
+life_rating = 30
 
 #Rubber discovered!
 1880.1.1 = {
@@ -15,8 +17,6 @@ controller = KNG
 		}
 
 
-trade_goods = iron
-life_rating = 15
 
 
 1960.1.1 = {

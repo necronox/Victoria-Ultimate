@@ -1,6 +1,3 @@
-owner = KON
-add_core = KON
-controller = KON
 1836.1.1 = {
 owner = LIB
 controller = LIB

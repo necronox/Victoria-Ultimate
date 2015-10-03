@@ -1,7 +1,8 @@
 owner = DAH
-add_core = DAH
 controller = DAH
-
+add_core = DAH
+trade_goods = fish
+life_rating = 35
 
 1903.1.1 = {
 		owner = FRA
@@ -10,8 +11,7 @@ controller = DAH
 		}
 
 
-trade_goods = cattle
-life_rating = 15
+
 add_core = BEN
 1960.1.1 = {
 	owner = BEN

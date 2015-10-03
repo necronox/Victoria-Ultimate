@@ -1,4 +1,3 @@
-owner = MTC
 1764.1.1 = {
 	owner = SPA
 	controller = SPA

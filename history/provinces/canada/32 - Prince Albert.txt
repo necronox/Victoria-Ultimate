@@ -1,6 +1,5 @@
 add_core = MTC
-owner = MTC
-trade_goods = fur
+trade_goods = grain
 life_rating = 20
 
 1861.1.1 = {

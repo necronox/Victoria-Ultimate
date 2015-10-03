@@ -1,5 +1,7 @@
 owner = WYA
-trade_goods = fur
+controller = WYA
+add_core = WYA
+trade_goods = cattle
 life_rating = 30
 
 1714.1.1 = {

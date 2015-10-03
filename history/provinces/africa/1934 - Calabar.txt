@@ -1,6 +1,8 @@
 owner = ARO
-add_core = ARO
 controller = ARO
+add_core = ARO
+trade_goods = fish
+life_rating = 35
 
 
 1903.1.1 = {
@@ -10,8 +12,6 @@ controller = ARO
 		}
 
 
-trade_goods = coal
-life_rating = 15
 1903.2.2 = {
 	add_core = NGR
 		}

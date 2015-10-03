@@ -1,7 +1,5 @@
-add_core = SWA
-owner = SWA
-controller = SWA
-
+owner = POR
+controller = POR
 trade_goods = grain
 life_rating = 35
 colonial = 2

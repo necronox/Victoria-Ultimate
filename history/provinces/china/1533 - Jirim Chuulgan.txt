@@ -1,6 +1,6 @@
-owner = MCK
-controller = MCK
-add_core = MCK
+owner = MNG
+controller = MNG
+add_core = MNG
 
 1644.1.1 = {
 	owner = CHI

@@ -1,7 +1,6 @@
-	owner = POR
-	controller = POR
+	owner = MUG
+	controller = MUG
 add_core = MUG
-colonial = 2
 1700.1.1 = {
 		owner = MRT
 	controller = MRT

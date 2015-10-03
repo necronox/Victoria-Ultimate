@@ -1,4 +1,3 @@
-colonial = 1
 1714.1.1 = {
 	owner = THC
 	controller = THC
@@ -14,7 +13,7 @@ colonial = 1
 naval_base = 1
 
 		}
-trade_goods = fur
+trade_goods = grain
 life_rating = 35
 1867.1.1 = { 	#AFTER CIVIL WAR
 	owner = USA	#AFTER CIVIL WAR

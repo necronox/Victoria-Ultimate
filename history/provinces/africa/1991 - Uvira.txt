@@ -1,8 +1,5 @@
-owner = LBA
-add_core = LBA
-controller = LBA
-
-
+trade_goods = fruit
+life_rating = 10
 
 1903.1.1 = {
 		owner = BEL
@@ -19,5 +16,3 @@ controller = LBA
 		colonial = 0
 		}
 
-trade_goods = fruit
-life_rating = 15

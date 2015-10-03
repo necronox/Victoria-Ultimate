@@ -1,5 +1,5 @@
 owner = TUR
-controller = PER
+controller = TUR
 
 1700.1.1 = {
 owner = PER

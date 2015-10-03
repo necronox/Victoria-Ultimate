@@ -1,7 +1,5 @@
-owner = LBA
-add_core = LBA
-controller = LBA
-
+trade_goods = cattle
+life_rating = 10
 
 1903.1.1 = {
 		owner = ENG
@@ -10,8 +8,7 @@ controller = LBA
 		}
 
 
-trade_goods = cattle
-life_rating = 15
+
 
 add_core = ZAM
 1960.1.1 = {
